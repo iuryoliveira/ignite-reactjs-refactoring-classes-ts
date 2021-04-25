@@ -15,8 +15,8 @@ interface IconProps {
 
 interface Props {
   name: string;
-  value: number;
-  icon: React.ComponentType<IconProps>;
+  value?: number;
+  icon?: React.ComponentType<IconProps>;
 }
 
 type InputProps = JSX.IntrinsicElements['input'] & Props
