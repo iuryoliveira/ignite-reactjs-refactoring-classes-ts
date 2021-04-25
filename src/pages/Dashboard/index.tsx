@@ -24,7 +24,7 @@ export function Dashboard() {
     }
 
     loadFoods();
-  }, []);
+  }, [foods]);
 
   async function handleAddFood(food: FoodData) {
     try {
